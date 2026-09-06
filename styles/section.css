@@ -3,7 +3,7 @@
 }
 
 .section__subtitle {
-  color: #ffffff;
+  color: var(--color-text);
   font-family: "ArchivoBlack-Regular", sans-serif;
   font-size: 40px;
   margin: 0 0 50px;
@@ -31,8 +31,8 @@
 
 .card__container {
   width: 100%;
-  height: 670px;
-  background-color: #1c1c1c;
+  height: 690px;
+  background-color: var(--color-bg-card);
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -83,18 +83,18 @@
 }
 
 .card__title {
-  color: #ffffff;
+  color: var(--color-text);
   font-family: "OpenSans-Bold", sans-serif;
   font-size: 24px;
   margin: 0 0 20px;
 }
 
 .card__description {
-  color: #ffffff;
+  color: var(--color-text);
   font-family: "OpenSans-Regular", sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  margin: 0 0 30px 0;
+  margin: 0;
 }
 
 .card__links {
@@ -121,14 +121,14 @@
 }
 
 .card__link-CTA {
-  color: #6d6dff;
+  color: var(--color-accent);
   font-family: "OpenSans-Regular", sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
 
 .card__link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-text-secondary);
   font-family: "OpenSans-Regular", sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -158,8 +158,12 @@
   }
 
   .card__container {
-    width: 688px;
-    height: auto;
+    width: 100%;
+    max-height: 690px;
+  }
+
+  .card__description {
+    margin: 0 0 30px 0;
   }
 
   .card__link-CTA,
@@ -215,10 +219,16 @@
 
   .card__description {
     font-size: 16px;
+    margin: 0 0 20px 0;
   }
 
   .card__badge-icon {
     width: 20px;
     height: 20px;
+  }
+
+  .card__link-CTA,
+  .card__link {
+    font-size: 14px;
   }
 }

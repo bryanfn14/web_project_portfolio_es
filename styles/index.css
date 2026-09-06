@@ -43,6 +43,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-bg: #111111;
+  --color-bg-card: #1c1c1c;
+  --color-text: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.5);
+  --color-accent: #6d6dff;
+  --gradient-rectangle: linear-gradient(to right, #4c1a97, #6d6dff);
+}
+
 body {
   background-color: #111111;
   font-family: "OpenSans-Regular", sans-serif;
@@ -83,5 +92,11 @@ body {
   .page-wrapper::before {
     top: -500px;
     left: calc(70% + 44px);
+  }
+}
+
+@media (max-width: 767px) {
+  .page-wrapper::before {
+    left: calc(50% + 44px);
   }
 }

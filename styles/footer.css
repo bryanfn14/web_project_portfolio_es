@@ -1,5 +1,4 @@
 .footer {
-  position: relative;
   padding: 0 120px 100px;
   display: flex;
   flex-direction: column;
@@ -7,14 +6,14 @@
 }
 
 .footer__subtitle {
-  color: #ffffff;
+  color: var(--color-text);
   font-family: "ArchivoBlack-Regular", sans-serif;
   font-size: 40px;
   margin: 0 0 20px;
 }
 
 .footer__link {
-  color: #6d6dff;
+  color: var(--color-accent);
   font-family: "OpenSans-Regular", sans-serif;
   font-size: 18px;
   text-decoration: none;
@@ -32,6 +31,15 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.social-media-li {
+  width: 24px;
+  height: 24px;
+}
+
+.social-media-link {
+  margin: 0;
 }
 
 .footer__icon {

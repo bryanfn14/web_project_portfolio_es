@@ -20,7 +20,7 @@ Un sitio web portafolio moderno y totalmente adaptativo desarrollado a partir de
 - **Fidelidad Pixel-Perfect:** Transición precisa del prototipo de Figma al código base.
 - **Diseño Responsivo:** Adaptado completamente para dispositivos **Desktop (1440px)**, **Tablet (1023px)** y **Mobile (320px - 767px)** usando _Media Queries_.
 - **Maquetación Robusta:** Uso extenso de **Flexbox** para la alineación dinámica de tarjetas, tarjetas emparejadas en altura y distribución fluida.
-- **Semántica HTML:** Estructura limpia y accesible utilizando etiquetas semánticas (`<section>`, `<article>`, `<header>`, etc.).
+- **Semántica HTML:** Estructura limpia y accesible utilizando etiquetas semánticas (`<section>`, `<footer>`, `<header>`, etc.).
 
 ---
 

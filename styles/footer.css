@@ -8,14 +8,14 @@
 .footer__subtitle {
   color: var(--color-text);
   font-family: "ArchivoBlack-Regular", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin: 0 0 20px;
 }
 
 .footer__link {
   color: var(--color-accent);
   font-family: "OpenSans-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-decoration: none;
   margin: 0 0 30px;
 }
@@ -63,12 +63,12 @@
   }
 
   .footer__subtitle {
-    font-size: 28px;
+    font-size: 1.75rem;
     margin: 0 0 20px;
   }
 
   .footer__link {
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 0 0 30px;
   }
 
